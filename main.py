@@ -38,3 +38,4 @@ for elem in range(call_elem_menu):
         actual_result = f'Нет заголовка на странице \'{browser.title}\''
 
     browser.back()
+browser.quit()
